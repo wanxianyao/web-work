@@ -198,15 +198,24 @@ SSM是WEB应用框架，涵盖整个应用层，而spring boot你可以看做一
 
 
 
+### Mybatis和Springboot的整合
+
+mybatis-spring-boot-starter
+
+```
+spring.datasource.username=root
+spring.datasource.password=123456
+spring.datasource.url=jdbc:mysql://localhost:3306/mybatis?useUnicode=true&charactor=Encoding=utf-8
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+```
+
+
+
 ### Spring Cloud
 
 
 
 ### 常用注解
-
-
-
-### Mybatis
 
 
 
